@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 // Start the second activity
                 Intent intent = new Intent(MainActivity.this, Second_Activity.class);
                 intent.putExtra("Message", "Hello this is data");
-                intent.putExtra("Date", 15042024);
+                intent.putExtra("Date", "15042024");
                 startActivity(intent);
             }
         });
